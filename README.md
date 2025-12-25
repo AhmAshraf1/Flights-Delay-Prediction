@@ -7,12 +7,17 @@ This project focuses on building a machine learning models to predict delays in 
 - **Arrival and Departure Delays Prediction**: Predicts how much time in minutes a flight will be delayed in the departure or arrival.
 - **Data Visualization**: Provides visual insights into the data, showing trends in delays across different airlines, airports, and seasons.
 
+## Pipeline
+The pipeline of the project is as follows:
+![Pipeline](./app_images/project%20pipeline.png)
+
 ## Project Structure
 The project is organized as follows:
 - `notebook/`: Jupyter notebooks for data exploration, feature engineering, and model development.
 - `models/`: Contains saved models that can be used for inference.
 - `app_images/`: Images used in the streamlit web app
 - `streamlit_app.py`: Web app for delay prediction, built with Streamlit.
+- `presentation/`: Presentation of the project.
 
 ## Dataset
 The dataset used in this project includes flight records from various US airlines. The features include:
